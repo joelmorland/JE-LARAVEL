@@ -1,0 +1,25 @@
+# Codeception Test Suite Configuration
+
+# suite for functional (integration) tests.
+# emulate web requests and make application process them.
+# (tip: better to use with frameworks).
+
+# RUN `build` COMMAND AFTER ADDING/REMOVING MODULES.
+
+class_name: AreacodeTest
+config:
+    PhpBrowser:
+        url: 'http://justeat.laravel'
+    curl:
+        CURLOPT_RETURNTRANSFER: true        
+modules:
+    enabled: [Filesystem, TestHelper, Laravel4, WebHelper, PhpBrowser]
+
+class_name: TestGuy
+modules:
+    enabled: [Filesystem, TestHelper, Laravel4, WebHelper, PhpBrowser]
+    config:
+        PhpBrowser:
+            url: 'http://justeat.laravel'
+            curl:
+                 CURL_RETURNTRANSFER: true

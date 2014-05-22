@@ -1,0 +1,4 @@
+I have my localhost setup to use justeat.laravel and the test configuration has been setup as such.
+You can modify this in app/tests/functional.suite.yml to suit your local environment.
+
+To run the tests, navigate to the root director and run "php codecept.phar run functional"

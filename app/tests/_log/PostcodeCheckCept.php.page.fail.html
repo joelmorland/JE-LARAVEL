@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <title>Just Eat - Joel Morland</title>    
+    <link media="all" type="text/css" rel="stylesheet" href="http://justeat.laravel/css/style.css">
+    <link media="all" type="text/css" rel="stylesheet" href="http://justeat.laravel/css/ui-lightness/jquery-ui-1.10.4.min.css">
+    </head>
+<body>
+        <div class="container">
+        <div id="search">
+            <form id="search" action="/restaurants" method="post">
+                <input type="text" name="areacode" id="areacode" />
+                <label for="postcode">Postcode</label>
+                <input type="submit" value="Search" id="search" />
+            </form>
+        </div>
+        <div id="restaurants"></div>
+    </div>
+    
+    <div id="dialog">
+        <div class="body"></div>
+    </div>
+    <div id="loader"></div>
+    
+        <script src="http://justeat.laravel/js/jquery-2.1.0.min.js"></script>
+    <script src="http://justeat.laravel/js/jquery-ui-1.10.4.min.js"></script>
+   
+    <script src="http://justeat.laravel/js/script.js"></script>
+  
+</body> 
+</html>

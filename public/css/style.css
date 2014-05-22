@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    color: #222; 
+    font-size:14px;
+}
+
+a {
+    text-decoration: none;
+    color: navy;
+}
+a:hover {
+    color: maroon;  
+}
+a.logoLink {
+    display:block;
+    width:100px;
+    height: 100px;
+}
+.ui-dialog {
+    position: fixed !important;
+}
+.smallText {
+    font-size: .8em;
+}
+img.broken-image {
+    content:url(/img/justeat.jpg);
+}
+div#search {
+    background:#DDD;        
+    border:1px solid #000;
+    border-radius:10px;
+    padding:10px;    
+    text-align: center;
+    margin-bottom:20px;
+}
+div#loader {
+    z-index: 1001;
+    display:none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width:32px;
+    height:32px;
+    margin-left:-18px;
+    background: url(/img/loading.gif) no-repeat;
+}
+div.logo {
+    float: left;
+    width: 100px;
+    height:100px;
+}
+div.details {
+    float:left;
+    height:100px;
+}
+div.clear {
+    clear: both;
+}
+div.restaurantHolder {
+    clear: both;
+    margin-bottom:15px;
+    height:100px;
+    border:2px solid #CCC;
+    padding:10px;
+    background:#EAEAEA;
+    border-radius:10px;
+}
+div.restaurantHolder div.logo {
+    width: 100px;
+}
+div.error {
+    background: #EE5151;
+    padding:10px;
+    border: 1px solid #333;
+    color: #000;
+}
+div.footer a {
+    font-size:12px;
+}
+span.ratings, span.ratings span {
+    display: block;
+    background: url(/img/stars.png) 0 -16px repeat-x;
+    width: 80px;
+    height: 16px;
+}
+span.ratings span {
+    background-position: 0 0;
+}
+img.broken-image {
+    max-width:100px;
+    max-height:100px;
+}
